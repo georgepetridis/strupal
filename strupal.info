@@ -1,0 +1,38 @@
+name = Strupal
+description = Stripped Down Drupal Starter Theme
+core = 7.x
+engine = phptemplate
+
+
+;-------------- F E A T U R E S -------------
+
+
+
+;--------------- R E G I O N S --------------
+
+; REQUIRED
+regions[page_top] = Page Top
+regions[content] = Content
+regions[page_bottom] = Page Bottom
+
+; CORE
+regions[header] = Header
+regions[footer] = Footer
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[help] = Help
+regions[highlighted] = Highlighted
+
+; CUSTOM
+
+;------------------- C S S ------------------
+
+;stylesheets[all][] = css/screen.css
+
+;-------------- C S S - F O A D -------------
+
+
+
+;-------------------- J S -------------------
+
+;scripts[] = js/script.js
